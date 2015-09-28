@@ -21,6 +21,5 @@
   "author": "John Barton <jrbarton@gmail.com> (http://whoisjohnbarton.com/)",
   "license": "ISC",
   "dependencies": {
-    "osx-wallpaper": "^1.0.1"
   }
 }
