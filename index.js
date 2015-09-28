@@ -4,7 +4,6 @@ var fs = require('fs');
 
 var credentialsFileExists = function() {
   var pathToCredentials = process.env.HOME + '/.aws/credentials';
-  console.log(pathToCredentials);
   try{
     fs.statSync(path.resolve(pathToCredentials));
   }catch(err){
