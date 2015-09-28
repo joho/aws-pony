@@ -1,14 +1,11 @@
-var osxWallpaper = require('osx-wallpaper');
 var exec = require('child_process').exec;
+var path = require('path');
 
-var downloadCommand = 'curl http://uploads.alphacoders.com/index.php/wallpapers/download/198224/images4/jpg/36892/20690 > ~/Downloads/pony.jpg';
 
 if (process.env.AWS_SECRET_ACCESS_KEY) {
-  var child = exec(downloadCommand, function(err, stdout, stderr) {
-    console.log(stdout);
-
-    osxWallpaper.set(process.env.HOME + '/Downloads/pony.jpg', function (err) {
-        console.log('done');
-    });
+  var pathToWallpaper = path.resolve('my_little_pony_wallpaper_by_theshadowstone-d7iyp7s.png');
+  var desktopCommand = 'osascript -e \'tell application "Finder" to set desktop picture to "' + pathToWallpaper + '" as POSIX file\'';
+  var child = exec(desktopCommand, function(err, stdout, stderr) {
+    console.log("You could have just leaked your AWS creds");
   });
 }
