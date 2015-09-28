@@ -1,6 +1,6 @@
 {
   "name": "aws-pony",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "I hope you like ponies. And leaking sensitive credentials from your ENV. But mostly ponies.",
   "main": "index.js",
   "scripts": {
