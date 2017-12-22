@@ -10,7 +10,7 @@ Flagrantly disregarding SemVer as was the style at the time.
 
 ### Licence
 
-&copy; 2015 [99designs](http://99designs.com) / [John Barton](http://whoisjohnbarton.com)
+&copy; 2015 [99designs](http://99designs.com) / [John Barton](https://johnbarton.co/)
 ```
 Code: ICS
 Wallpaper: Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License from http://theshadowstone.deviantart.com/art/My-Little-Pony-Wallpaper-455115304
